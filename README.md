@@ -1,0 +1,2 @@
+# AntiSwear
+AntiSwear Minecraft plugin.
