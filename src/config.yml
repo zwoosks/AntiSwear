@@ -1,0 +1,34 @@
+#########################################
+#        Plugin made by zwoosks!        #
+#         Discord: zwoosks#5076         #
+#     Email: zwoosks@protonmail.com     #
+#      GitHub: github.com/zwoosks/      #
+#########################################
+
+messages:
+  warn: '&c%player%, do not swear in chat!'
+  muted: '&cYou have been muted %minutes% minutes for swearing %max% times!'
+  noPerm: '&cYou do not have the following permission node requiered to perform this action: &e%perm%&c!'
+  connotMessage: '&cYou are currently muted.'
+  addUsage: '&c/antiswear add <text>'
+  removeUsage: '&c/antiswear remove <text>'
+  cannotRemove: '&cYou can''t remove something from the list that doesn''t exist!'
+  changesSaved: '&aYour changes have been saved successfully.'
+  help:
+  - '&aHello, %player%. This is the aviable command list'
+  - '&e/antiswear help &a - antiswear.viewhelp'
+  - '&e/antiswear add <text> &a - antiswear.add'
+  - '&e/antiswear remove <text> &a - antiswear.remove'
+
+antiswear:
+  active: true
+  # How many times has de players say swear words to get muted.
+  muteOnXTimes: 5
+  # Hoy much time will be the player muted if reaches the muteOnXTimes (in minutes)
+  muteMinutes: 5
+  words:
+  - 'nigga'
+  - 'bastard'
+
+warned-players:
+  zwoosks: 0

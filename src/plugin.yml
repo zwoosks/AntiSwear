@@ -1,0 +1,7 @@
+main: me.zwoosks.antiswear.Main
+name: AntiSwear
+author: zwoosks
+version: 1.0
+commands:
+  antiswear:
+    description: Antiswear commands.
